@@ -130,5 +130,21 @@ int main()
             }
         }
     */
+    
+    // Zadanie 7
+    /**/
+        int i = 0;
+        while (true)
+        {
+            if (i == 200) {
+                break;
+            }
+            if (i % 2 == 0) {
+                i++;
+                continue;
+            }
+            cout << i << endl;
+            i++;
+        }
 
 }
