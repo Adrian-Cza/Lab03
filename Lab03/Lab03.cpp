@@ -84,4 +84,13 @@ int main()
                 break;
         }
     */
+
+    // Zadanie 5
+    /*
+        int i = 0;
+        while (true) {
+            cout << i;
+            i++;
+        }
+    */
 }
