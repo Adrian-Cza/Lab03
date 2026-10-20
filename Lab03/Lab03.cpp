@@ -93,4 +93,42 @@ int main()
             i++;
         }
     */
+    
+    // Zadanie 6
+    /*
+        bool dzialanie_petli = true;
+        int a;
+        float liczba1, liczba2;
+        char znak;
+        while (dzialanie_petli) {
+            cout << "Podaj liczbe1: ", cin >> liczba1;
+            cout << "Podaj liczbe2: ", cin >> liczba2;
+            cout << "Wybierz operacje (+, -, *, /): ", cin >> znak;
+            switch (znak)
+            {
+            case '+':
+                cout << "Wynik: " << liczba1 + liczba2;
+                break;
+            case '-':
+                cout << "Wynik: " << liczba1 - liczba2;
+                break;
+            case '*':
+                cout << "Wynik: " << liczba1 * liczba2;
+                break;
+            case '/':
+                liczba2 != 0 ? cout << "Wynik: " << liczba1 / liczba2 : cout << "Nie mozna dzielic przez 0!";
+                break;
+
+            default:
+                cout << "Podano bledy znak!";
+                break;
+            }
+        
+            cout << "\nDalej? (0, 1): ", cin >> a;
+            if (a == 0) {
+                dzialanie_petli = false;
+            }
+        }
+    */
+
 }
