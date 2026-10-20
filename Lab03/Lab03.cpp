@@ -55,5 +55,33 @@ int main()
         }
     */
 
+    // Zadanie 4
+    /*
+        float a, b;
+        cout << "Podaj a: ", cin >> a;
+        cout << "Podaj b: ", cin >> b;
 
+        char znak;
+        cout << "Wybierz operacje (+, -, *, /): ", cin >> znak;
+
+        switch (znak)
+        {
+            case '+':
+                cout << "Wynik: " << a + b;
+                break;
+            case '-':
+                cout << "Wynik: " << a - b;
+                break;
+            case '*':
+                cout << "Wynik: " << a * b;
+                break;
+            case '/':
+                b != 0 ? cout << "Wynik: " << a / b : cout << "Nie mozna dzielic przez 0!";
+                break;
+
+            default:
+                cout << "Podano bledy znak!";
+                break;
+        }
+    */
 }
