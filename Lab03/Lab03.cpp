@@ -11,7 +11,9 @@ int main()
         cout << "Podaj b: ", cin >> b;
         if (a == b) {
             cout << "Liczby sa rowne" << endl;
-        } else if (a > b) {
+        } 
+        
+        if (a > b) {
             cout << "Liczba a jest wieksza od liczby b" << endl;
         } else {
             cout << "Liczba a jest mniejsza od liczby b" << endl;
@@ -19,5 +21,16 @@ int main()
     */
 
     // Zadanie 2
-    /**/
+    /*
+        int a, b;
+        cout << "Podaj a: ", cin >> a;
+        cout << "Podaj b: ", cin >> b;
+        if (a == b) {
+            cout << "Liczby sa rowne" << endl;
+        } else if (a > b) {
+            cout << "Liczba a jest wieksza od liczby b" << endl;
+        } else {
+            cout << "Liczba a jest mniejsza od liczby b" << endl;
+        }
+    */
 }
